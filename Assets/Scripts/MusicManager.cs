@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 public class MusicManager : MonoBehaviour {
 
 	public AudioClip[] levelMusicChangeArray;
@@ -15,10 +16,8 @@ public class MusicManager : MonoBehaviour {
 
 	void Start () {
 		audioSource = GetComponent<AudioSource>();
-		
 	}
-	
-	
+		
 	void OnLevelWasLoaded(int level) {
 		AudioClip thisLevelMusic = levelMusicChangeArray[level];
 		Debug.Log ("Playing Clip: " + thisLevelMusic);
@@ -27,6 +26,9 @@ public class MusicManager : MonoBehaviour {
 			audioSource.loop = true;
 			audioSource.Play();
 		}
-		
+	}
+	
+	public void ChangeVolume (float volume){
+		audioSource.volume = volume;
 	}
 }
