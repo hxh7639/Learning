@@ -21,6 +21,8 @@ public class MusicManager : MonoBehaviour {
 	void OnLevelWasLoaded(int level) {
 		AudioClip thisLevelMusic = levelMusicChangeArray[level];
 		Debug.Log ("Playing Clip: " + thisLevelMusic);
+		float volume = PlayerPrefsManager.GetMasterVolume();
+		ChangeVolume(volume);
 		if (thisLevelMusic){// if there's some music attached
 			audioSource.clip = thisLevelMusic;
 			audioSource.loop = true;

@@ -18,6 +18,22 @@ TextureImporter:
     21300026: npc_rare_item_vendor__x1_walk_png_1354840072_13
     21300028: npc_rare_item_vendor__x1_walk_png_1354840072_14
     21300030: npc_rare_item_vendor__x1_walk_png_1354840072_15
+    21300032: Zombie_0
+    21300034: Zombie_1
+    21300036: Zombie_2
+    21300038: Zombie_3
+    21300040: Zombie_4
+    21300042: Zombie_5
+    21300044: Zombie_6
+    21300046: Zombie_7
+    21300048: Zombie_8
+    21300050: Zombie_9
+    21300052: Zombie_10
+    21300054: Zombie_11
+    21300056: Zombie_12
+    21300058: Zombie_13
+    21300060: Zombie_14
+    21300062: Zombie_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,165 +75,165 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_0
+    - name: Zombie_0
       rect:
         serializedVersion: 2
-        x: 123
+        x: 0
         y: 273
-        width: 60
-        height: 90
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_1
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 273
-        width: 60
-        height: 90
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_2
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 274
-        width: 60
-        height: 89
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_3
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 274
-        width: 60
-        height: 89
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_4
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 185
-        width: 60
-        height: 86
+        width: 187
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_5
+    - name: Zombie_1
       rect:
         serializedVersion: 2
-        x: 310
+        x: 187
+        y: 273
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 273
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 273
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_4
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 182
-        width: 60
-        height: 88
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_6
+    - name: Zombie_5
       rect:
         serializedVersion: 2
-        x: 497
-        y: 184
-        width: 60
-        height: 87
+        x: 187
+        y: 182
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_7
+    - name: Zombie_6
       rect:
         serializedVersion: 2
-        x: 684
-        y: 183
-        width: 62
-        height: 89
+        x: 374
+        y: 182
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_8
+    - name: Zombie_7
       rect:
         serializedVersion: 2
-        x: 123
-        y: 92
-        width: 63
-        height: 89
+        x: 561
+        y: 182
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_9
+    - name: Zombie_8
       rect:
         serializedVersion: 2
-        x: 310
-        y: 92
-        width: 63
-        height: 89
+        x: 0
+        y: 91
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_10
+    - name: Zombie_9
       rect:
         serializedVersion: 2
-        x: 497
-        y: 92
-        width: 61
-        height: 89
+        x: 187
+        y: 91
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_11
+    - name: Zombie_10
       rect:
         serializedVersion: 2
-        x: 684
-        y: 92
-        width: 60
-        height: 88
+        x: 374
+        y: 91
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_12
+    - name: Zombie_11
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1
-        width: 60
-        height: 88
+        x: 561
+        y: 91
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_13
+    - name: Zombie_12
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1
-        width: 60
-        height: 88
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_14
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 1
-        width: 60
-        height: 88
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npc_rare_item_vendor__x1_walk_png_1354840072_15
-      rect:
-        serializedVersion: 2
-        x: 684
+        x: 0
         y: 0
-        width: 60
-        height: 89
+        width: 187
+        height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_14
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 187
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
