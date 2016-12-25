@@ -22,7 +22,7 @@ public class Attacker : MonoBehaviour {
 			anim.SetBool ("isAttacking", false);
 		}
 	}
-	
+
 	void OnTriggerEnter2D(){
 		//Debug.Log (name + "trigger enter");
 	}
