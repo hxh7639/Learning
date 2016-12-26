@@ -17,7 +17,7 @@ public class Health : MonoBehaviour {
 	
 	public void HandleHits (float damage){
 		health -= damage;
-		Debug.Log(name + "current health: " + health);
+		// Debug.Log(name + "current health: " + health); - log current health
 		if (health <= 0) {
 			// optionally trigger an animation then destroy
 			DestoryObject();

@@ -33,7 +33,7 @@ public class Attacker : MonoBehaviour {
 
 	// called from the animator at the time of the actual blow
 	public void StrikeCurrentTarget(float damage){
-		Debug.Log(name + " doing damage " + damage);
+		//Debug.Log(name + " doing damage " + damage); to log dmg
 		if (currentTarget){
 		// course puts it all in one line: Health health = currentTarget.GetComponent<Health>();
 			health = currentTarget.GetComponent<Health>();
