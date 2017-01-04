@@ -4,7 +4,8 @@ using System.Collections;
 [RequireComponent (typeof (Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
-
+	[Tooltip ("one comes out every X seconds")]
+	public float spawnEveryXSeconds;
 	private float currentSpeed;
 	private GameObject currentTarget;
 	private Health health;
