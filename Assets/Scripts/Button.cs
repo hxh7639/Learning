@@ -22,7 +22,7 @@ public class Button : MonoBehaviour {
 
 	void OnMouseDown (){
 		// Debug.Log (name + " clicked"); log the selected.
-		foreach (Button thisButton in buttonArray) {
+		foreach (Button thisButton in buttonArray) { //set all to gray and then the clicked to white
 			thisButton.GetComponent<SpriteRenderer> ().color = Color.gray; // course used color.black, here i used gray.
 		}
 		GetComponent<SpriteRenderer> ().color = Color.white;
