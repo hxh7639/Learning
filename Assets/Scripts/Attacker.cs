@@ -5,7 +5,7 @@ using System.Collections;
 public class Attacker : MonoBehaviour {
 
 	[Tooltip ("one comes out every X seconds")]
-	public float spawnEveryXSeconds;
+	public float spawnPerXSeconds;
 	private float currentSpeed;
 	private GameObject currentTarget;
 	private Health health;
