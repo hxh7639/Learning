@@ -28,7 +28,7 @@ public class Attacker : MonoBehaviour {
 		//Debug.Log (name + "trigger enter");
 	}
 	
-	public void SetSpeed (float speed){
+	public void SetSpeed (float speed){  // call this "function" in animation (animation can call functions instead of variables)
 		currentSpeed = speed;
 	}
 
