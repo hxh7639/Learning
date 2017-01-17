@@ -37,8 +37,6 @@ public class Shooter : MonoBehaviour {
 				return;
 			}
 
-			Debug.LogError (name + "can't find spawner in lane " + spawner.transform.position.y);
-		
 		}
 
 	
