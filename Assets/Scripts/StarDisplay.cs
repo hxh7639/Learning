@@ -7,8 +7,9 @@ using UnityEngine.UI;
 public class StarDisplay : MonoBehaviour {
 
 
-private Text startext;
-private int starAmount = 0;
+	private Text startext;
+	private int starAmount = 100;
+	public enum Status {SUCCESS, FAILURE};
 	
  
 	// Use this for initialization
@@ -26,8 +27,15 @@ private int starAmount = 0;
 		starAmount += amount;
 		startext.text = starAmount.ToString(); // course factored this out and made it into another function to call here.
 	}
-	public void UseStars(int amount){
-		starAmount -= amount;
-		startext.text = starAmount.ToString();
+	public Status UseStars(int amount){
+		if (starAmount >= amount)
+		{
+			starAmount -= amount;
+			startext.text = starAmount.ToString();
+			return Status.SUCCESS;
+		}
+		return Status.FAILURE;
 	}
+
+		
 }

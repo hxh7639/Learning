@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerPrefsManager : MonoBehaviour {
 
@@ -20,7 +21,8 @@ public class PlayerPrefsManager : MonoBehaviour {
 	}
 	
 	public static void UnlockLevel (int level){
-		if (level <= Application.levelCount - 1){
+		/*if (level <= Application.levelCount - 1){ // old system, unity 4 */
+		if (level <= SceneManager.GetActiveScene().buildIndex - 1){
 			PlayerPrefs.SetInt (LEVEL_KEY + level.ToString(), 1); // set it to 1 for true
 		} else {
 		Debug.LogError ("Trying to unlock level not in build order");
@@ -31,7 +33,8 @@ public class PlayerPrefsManager : MonoBehaviour {
 		int levelValue = PlayerPrefs.GetInt(LEVEL_KEY + level.ToString());
 		bool isLevelUnlocked = (levelValue == 1);
 		
-		if (level <= Application.levelCount - 1){
+		/*if (level <= Application.levelCount - 1){ // old system, unity 4 */
+		if (level <= SceneManager.GetActiveScene().buildIndex - 1){
 			return isLevelUnlocked;
 		}else {
 			Debug.LogError("Trying to query level not in build order");
