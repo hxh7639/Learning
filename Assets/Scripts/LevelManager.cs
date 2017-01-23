@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 
 	public float autoLoadNextLevelAfter;
+
+	void Awake () {
+		DontDestroyOnLoad(gameObject);
+		Debug.Log ("Don't destory on load: " + name);
+		
+	}
 	
 	void Start(){
 		if (autoLoadNextLevelAfter <=0){
