@@ -29,11 +29,7 @@ public class Spawner : MonoBehaviour {
 			}
 		float threshold = spawnsPerSecond * Time.deltaTime/5;  // spawns per second * 1 second / 5(lanes). so you get the correct spawn per second
 
-		if (Random.value < threshold){ //??
-			return true;
-		}else {
-			return false;
-		}
+		return (Random.value < threshold); //??
 
 	}
 
