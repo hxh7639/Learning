@@ -13,6 +13,7 @@ public class GameTimer : MonoBehaviour {
 	private AudioSource audioSource;
 	private GameObject winLabel;
 	private GameObject loseCollider;
+    private GameObject[] allTaggedObjects;
 
 
 	// Use this for initialization
@@ -41,14 +42,29 @@ public class GameTimer : MonoBehaviour {
 
 		bool levelTimeIsUp = ( slider.value >= 1);
 		if (levelTimeIsUp && levelIsEnded == false){    //course used Time.timeSinceLevelLoad >= LevelSeconds && !isEndOfLevel)
-			audioSource.Play();
-			Invoke ("LoadNextLevel", audioSource.clip.length);
-			levelIsEnded = true;
-			winLabel.SetActive(true);
-			loseCollider.SetActive(false);
+            HandleWinCondition();
 		}
 
 	}
+
+    void HandleWinCondition()
+    {
+        DestoryAllTaggedObjects();
+        audioSource.Play();
+        Invoke("LoadNextLevel", audioSource.clip.length);
+        levelIsEnded = true;
+        winLabel.SetActive(true);
+        loseCollider.SetActive(false);
+    }
+
+    // Destory all objects withdestoryOnWin tag
+    void DestoryAllTaggedObjects(){
+        allTaggedObjects = GameObject.FindGameObjectsWithTag("destoryOnWin");
+        foreach (GameObject obj in allTaggedObjects)
+        {
+            Destroy(obj);
+        }
+    }
 
 	void LoadNextLevel(){
 		levelManager.LoadNextLevel();
